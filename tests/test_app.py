@@ -9,7 +9,7 @@ class TestApp(unittest.TestCase):
     
         def test_hello_world(self):
             response = self.app.get('/')
-            self.assertEqual(response.data, b'Hello Niveda!')
+            self.assertEqual(response.data, b'Hello JENKINS with everything!')
 
 if __name__ == '__main__':
     unittest.main()
